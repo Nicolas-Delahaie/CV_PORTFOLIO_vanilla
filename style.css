@@ -18,8 +18,24 @@
 /* ------------------------------------------ */
 
 
-/* -------------- CV -------------- */
+/* -------------- LANGUES -------------- */
+#zoneLangues{
+    /* position:; */
+    display :flex;
+    flex-wrap: wrap;
+}
+#zoneLangues > a{
+    color : var(--marron);
+    padding : 5px;
+}
+#zoneLangues > a:hover{
+    color: var(--gris-fonce);
+    cursor: pointer;
+}
 
+
+
+/* -------------- CV -------------- */
 #cv{
     width:769px;
     background-color: white;

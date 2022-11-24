@@ -1,5 +1,3 @@
-backup*
 essai_survolage
 CV_anglais.html
-liste_projets.txt
 workspace.code-workspace
