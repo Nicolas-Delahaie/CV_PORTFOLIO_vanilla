@@ -230,7 +230,7 @@
     justify-content: space-around;
     padding : 3% 2%;
 }
-#zonePhotosProjets > article{
+#zonePhotosProjets article{
     display :flex;
     justify-self: center;
     align-self: center;
@@ -248,7 +248,7 @@
     height: 300px;
 }
 #carte_bus{
-    width:800px;
+    width:600px;
 }
 #puissance4{
     width:250;
@@ -391,6 +391,7 @@ button:hover{
 .photosProjets:hover {
     filter: brightness(35%);
     cursor: pointer;
+
     
     transform: scale(1.2);
     -ms-transform: scale(1.2);
