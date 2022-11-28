@@ -239,38 +239,37 @@
     margin : 20px;
 }
 #surfNow{
-    height : 500px;
+    width:300px;
 }
 #bataille{
-    height : 400px;
-    /* position :absolute; */
+    width: 350px;
 }
 #roulette{
     height: 300px;
 }
 #carte_bus{
-    height: 700px;
+    width:800px;
 }
 #puissance4{
-    height : 400px;
+    width:250;
 }
 #reseau{
-    height : 400px;
+    width:300px;
 }
 #bruitage{
-    height: 300px;
+    width:600px;
 }
 #hanoi{
-    height: 250px;
+    width:550px;
 }
 #demineur{
-    height: 500px;
+    width:350px;
 }
 #graphiques_rugby{
-    height: 300px;
+    width:600px;
 }
 #chifoumi{
-    height : 350px;
+    width:350px;
 }
 
 
@@ -392,8 +391,6 @@ button:hover{
 .photosProjets:hover {
     filter: brightness(35%);
     cursor: pointer;
-    
-
     
     transform: scale(1.2);
     -ms-transform: scale(1.2);
