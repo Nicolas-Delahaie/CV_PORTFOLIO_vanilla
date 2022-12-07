@@ -1,0 +1,170 @@
+[sous-titre] 
+"ETUDIANT INFORMATIQUE"
+[informationsPersonnelles]
+{
+    "56 avenue Docteur Bernard Gaudeul, 64100 Bayonne"
+    "07 82 56 37 44"
+    "nico601.delahaie@gmail.com"
+    "6 janvier 2003"
+    "Titulaire du permis B"
+    "Nicolas DELAHAIE"
+}
+[objectifs] 
+"Je souhaiterais à la suite de mon BUT informatique entrer en école d’ingénieur. Au préalable, j’aimerais, à l’issue de mes stages, trouver la specialité qui me conviendrait le mieux parmi celles que j’étudie actuellement."
+[formations]
+{
+    "BUT Informatique (depuis 2021)"
+    {
+        "IUT de Montaury"
+        "Université de Pau et des pays de l'Adour"
+        "Parcours A"
+    }
+    "Lycée Alfred Kastler (2018-2020)"
+    {
+        "Spécialités :"
+        {
+            "NSI"
+            "Maths expertes"
+            "(Physique)"
+        }
+        "Bac mention bien"
+    }
+}
+[savoir_faire]
+{
+    "Organiser mon temps de travail"
+    "Manager une équipe de projet"
+    "Vulgariser un projet"
+    "Fabriquer des objets à partir de DAO"
+    "Pratiquer :"
+    {
+        "SQL / DAO"
+        "Python / C++"
+        "HTML / CSS / PHP"
+        "SHELL Unix"
+    }
+}
+[savoir_etre]
+{
+    "Discipliné : alimentation et sports dont musculation"
+    "Sociable : communication aisée lors de projets en équipe grâce aux différents projets passés"
+    "Rigoureux : respecte méticuleusement les consignes"
+    "Ponctuel : pratique du vélo donc indépendant des transports en commun"
+}
+[titrePrincipal_portfolio]
+{
+    "Voici mon Portfolio"
+    "Projets colaboratifs et personnels"
+    "VISIONNER MES PROJETS"
+}
+[zoneBleue]
+{
+    "Grand fan de github"
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, repellat sed doloribus, quidem commodi voluptatem labore est earum velit magni recusandae placeat. Voluptate id explicabo incidunt architecto omnis facere ratione?"
+    "CONSULTER MON GITHUB"
+}
+[grilleIcones]
+{
+    "En resumé"
+    {
+        {
+            "Compétences"
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit Officiis"
+        }
+        {
+            "Informations continus"
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit Officiis"
+        }
+        {
+            "Dîplomes"
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit Officiis"
+        }
+        {
+            "Qualités"
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit Officiis"
+        }
+    }
+}
+[titreProjet]
+"Mes projets"
+[zonePhotosProjets]
+{
+    [surfNow]
+    {
+        "SurfNow"
+        "Application maquetée puis programmée en html et css"
+        "Projet en semestre 1 de BUT 1 en Développement web"
+    }
+    [bataille]
+    {
+        "Bataille navale"
+        "Interface du jeux de la Bataille codé sur la console en C++"
+        "Projet en semestre 1 de BUT 1 en Programmation bas niveau"
+    }
+    [roulette]
+    {
+        "Jeux de la roulette"
+        "Programme C++ qui affiche dans la console le jeux de la roulette et qui permet de tenter automatiquement des méthodes sur de grands nombres de parties pour observer la tendance. On peut y jouer en naviguant avec les fleches puis en validant avec entrer. L'affichage est dynamique en fonction de ce que le joueur séléctionne."
+        "Projet personnel réalisé en semestre 2 de BUT 1"
+    }
+    [carte_bus]
+    {
+        "Itineraires de bus"
+        "Codage de méthodes du plus court chemin en python appliqué sur le réseau de bus du bab"
+        "Projet en semestre 2 de BUT 1 en Mathématiques"
+    }
+    [puissance4]
+    {
+        "Puissance 4"
+        "Codage du puissance 4 en assembleur sur simulateur à la suite d'une évaluation reprenant un bout de l'algorithme (affichage des jetons)"
+        "Projet personnel de fin de BUT1"
+    }
+    [reseau]
+    {
+        "Adressage réseau d'une entreprise"
+        "Architecture réseau d'une entreprise factice pensée et adressée depuis Marionnet"
+        "Projet en semestre 2 de BUT 1 en Réseau"
+    }
+    [bruitage]
+    {
+        "Bruitage d'image"
+        "Programme python qui va bruiter une image plus ou moins .Il peut également transformer un pixel art avec beaucoup de pixels en un pixel art avec le strice minimum de pixels."
+        "Projet en fin de trimestre de terminale en NSI"
+    }
+    [hanoi]
+    {
+        "Tours d'Hanoï"
+        "Programme C++ qui permet de jouer aux tours d'Hanoï dans la console. Il suffit de cliquer sur la tour de base puis sa destination. On peut également retourner en arrière grace à un système de pile."
+        "Projet personnel basé sur un TP en semestre 2 de BUT 1 en programmation bas niveau"
+    }
+    [demineur]
+    {
+        "Démineur"
+        "Programme C++ qui permet de jouer au démineur dans la console. Il suffit d'écrire l'instruction puis de valider et la console se met a jour."
+        "Projet personnel au semestre 1 du BUT 1"
+    }
+    [graphiques_rugby]
+    {
+        "Analyses équipe rugby"
+        "Programme python affichant des graphiques divers et variés liés à différentes analyses sur des données csv d'une équipe de rugby."
+        "Projet en semestre 2 de BUT 1 en mathématiques"
+    }
+    [chifoumi]
+    {
+        "Chifoumi"
+        "Programme C++ utilisant un modèle MVP sur QT. Ce chifoumi est très complet : persalisation du temps et du pseudo, pause du temps, identification avec une base de donnée et bien plus encore."
+        "Projet en semestre 2 de BUT 1 en programmation IHM"
+    }
+}
+[titreFooter]
+{
+    "Me contacter"
+    "N'hésitez pas à prendre contact"
+}
+[footerGrid]
+{
+    "07-82-56-37-44"
+    "nico601.delahaie@gmail.com"
+}
+
+
