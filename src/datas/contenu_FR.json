@@ -1,0 +1,63 @@
+{
+    "titrePrincipal":{
+        "nom":"Nicolas DELAHAIE",
+        "profession":"ETUDIANT INFORMATIQUE"
+    },
+    "informationsPersonnelles":{
+        "adresse":"56 avenue Docteur Bernard Gaudeul, 64100 Bayonne",
+        "numero":"07 82 56 37 44",
+        "mail":"nico601.delahaie@gmail.com",
+        "date_de_naissance":"6 janvier 2003",
+        "permis":"Titulaire du permis B",
+        "linkedin":
+        {
+            "lien":"https://www.linkedin.com/in/nicolas-delahaie-a02b38257/",
+            "nomProfil":"Nicolas DELAHAIE"
+        }
+    },
+    "objectifs":{
+        "titre":"OBJECTIF",
+        "contenu":"Je souhaiterais à la suite de mon BUT informatique entrer en école d’ingénieur. Au préalable, j’aimerais, à l’issue de mes stages, trouver la specialité qui me conviendrait le mieux parmi celles que j’étudie actuellement."
+    },
+    "formations":{
+        "titre":"FORMATIONS",
+        "contenu":[
+            {   "formation":"BUT Informatique",
+                "duree":"(depuis 2021)",
+                "details":[
+                    "Parcours A",
+                    "IUT de Montaury",
+                    "Université de Pau et des pays de l'Adour"
+                ]        
+            },
+            {   "formation":"Lycee Alfred Kastler",
+                "duree":"(2018-2020)",
+                "details":[
+                    "Spacialités",
+                    "NSI", "Maths expertes", "(Physique)",
+                    "Bac mention bien"
+                ]        
+            }
+        ]
+    },
+    "savoir_faire":{
+        "titre":"SAVOIR-FAIRE",
+        "Contenu":[
+            ["Organiser"," mon temps de travail"],
+            ["Manager", " une équipe de projet"],
+            ["Vulgariser", " un projet"],
+            ["Fabriquer", " des objets à partir de DAO"],
+            ["Pratiquer :",""],
+            ["Python / C++ / Java","HTML / CSS / PHP / JavaScript","SQL / DAO","SHELL Unix"]
+        ]
+    },
+    "savoir_etre":{
+        "titre":"SAVOIR-ETRE",
+        "Contenu":[
+            ["Discipliné"," alimentation et sports dont musculation"],
+            ["Sociable :", " communication aisée lors de projets en équipe grâce aux différents projets passés"],
+            ["Rigoureux :", " respecte méticuleusement les consignes"],
+            ["Actif :", " pratique quotidienne du vélo (indépendant des transports en commun)"]
+        ]
+    }
+}

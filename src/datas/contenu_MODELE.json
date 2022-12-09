@@ -1,0 +1,63 @@
+{
+    "titrePrincipal":{
+        "nom":"",
+        "profession":""
+    },
+    "informationsPersonnelles":{
+        "adresse":"",
+        "numero":"",
+        "mail":"",
+        "date_de_naissance":"",
+        "permis":"",
+        "linkedin":
+        {
+            "lien":"",
+            "nomProfil":""
+        }
+    },
+    "objectifs":{
+        "titre":"",
+        "contenu":""
+    },
+    "formations":{
+        "titre":"",
+        "contenu":[
+            {   "formation":"",
+                "duree":"",
+                "details":[
+                    "",
+                    "",
+                    ""
+                ]        
+            },
+            {   "formation":"",
+                "duree":"",
+                "details":[
+                    "",
+                    "", "", "",
+                    ""
+                ]        
+            }
+        ]
+    },
+    "savoir_faire":{
+        "titre":"",
+        "Contenu":[
+            ["",""],
+            ["", ""],
+            ["", ""],
+            ["", ""],
+            ["",""],
+            ["","","",""]
+        ]
+    },
+    "savoir_etre":{
+        "titre":"",
+        "Contenu":[
+            ["",""],
+            ["", ""],
+            ["", ""],
+            ["", ""]
+        ]
+    }
+}

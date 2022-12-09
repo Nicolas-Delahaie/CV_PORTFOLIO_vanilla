@@ -1,0 +1,63 @@
+{
+    "titrePrincipal":{
+        "nom":"Nicolas DELAHAIE",
+        "profession":"COMPUTER STUDENT"
+    },
+    "informationsPersonnelles":{
+        "adresse":"56 Docteur Bernard Gaudeul Avenue, 64100 Bayonne",
+        "numero":"07 82 56 37 44",
+        "mail":"nico601.delahaie@gmail.com",
+        "date_de_naissance":"6th january 2003",
+        "permis":"Permit B owner",
+        "linkedin":
+        {
+            "lien":"https://www.linkedin.com/in/nicolas-delahaie-a02b38257/",
+            "nomProfil":"Nicolas DELAHAIE"
+        }
+    },
+    "objectifs":{
+        "titre":"OBJECTIVES",
+        "contenu":"I would like to enter an engeneering school after my computer science BUT. Before that, I would like, after my internships, to find the speciality that would suit me best among those I am currently studying."
+    },
+    "formations":{
+        "titre":"FORMATIONS",
+        "contenu":[
+            {   "formation":"Computer science Bachelor",
+                "duree":"(since 2021)",
+                "details":[
+                    "Route A",
+                    "Montaury IUT",
+                    "University of Pau and the Adour countries"
+                ]        
+            },
+            {   "formation":"Alfred Kastler high school",
+                "duree":"(2018-2020)",
+                "details":[
+                    "Spécialities :",
+                    "Digital and Computer Science", "Expert maths", "(Physics)",
+                    "Bac with honors"
+                ]        
+            }
+        ]
+    },
+    "savoir_faire":{
+        "titre":"KNOW-HOW",
+        "Contenu":[
+            ["Organise"," my work time"],
+            ["Manage", " a team"],
+            ["Explain", " a project"],
+            ["Manufacture", " objects from DAO"],
+            ["Practice :", ""],
+            ["Python / C++ / Java","HTML / CSS / PHP / JavaScript","SQL / DAO","SHELL Unix"]
+        ]
+    },
+    "savoir_etre":{
+        "titre":"SOFT-SKILLS",
+        "Contenu":[
+            ["Discplined :"," diet and sports like strength training"],
+            ["Sociable :", " easy communication during team projects thanks to différent past projects"],
+            ["Rigorous :", " respect the instructions meticulously"],
+            ["Active :", " daily cycling practice (independant of public transports)"]
+        ]
+    }
+}
