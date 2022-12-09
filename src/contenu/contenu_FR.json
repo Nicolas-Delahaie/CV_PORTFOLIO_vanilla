@@ -47,7 +47,8 @@
             ["Manager", " une équipe de projet"],
             ["Vulgariser", " un projet"],
             ["Fabriquer", " des objets à partir de DAO"],
-            [["Pratiquer :"],["SQL / DAO","Python / C++","HTML / CSS / PHP","SHELL Unix"]]
+            ["Pratiquer :",""],
+            ["Python / C++ / Java","HTML / CSS / PHP / JavaScript","SQL / DAO","SHELL Unix"]
         ]
     },
     "savoir_etre":{
@@ -56,7 +57,7 @@
             ["Discipliné"," alimentation et sports dont musculation"],
             ["Sociable :", " communication aisée lors de projets en équipe grâce aux différents projets passés"],
             ["Rigoureux :", " respecte méticuleusement les consignes"],
-            ["Ponctuel :", " pratique du vélo donc indépendant des transports en commun"]
+            ["Actif :", " pratique quotidienne du vélo (indépendant des transports en commun)"]
         ]
     }
 }
