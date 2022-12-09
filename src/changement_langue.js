@@ -1,21 +1,6 @@
 
-
-//Conversion en chaine JSON
-// var contenu = import('./contenu_FR.json');
-
-
-// var fichier = fetch("http://localhost/CV_Portfolio/src/contenu/contenu_FR.json");  //"http://localhost/Projets_IUT/SITE_PORTFOLIO_CV/src/contenu/contenu_FR.json"
-// fichier.then((a) => {
-//     console.log(a);
-
-//     b.then((c)=> {
-//         const d = c.json;
-//         console.log(d);
-//         contenuSite = c;
-//     });
-// });
-// console.log(contenuSite);
-
+//Initialisation contenu page
+changerLangue("fr");
 
 function majElementsPage(contenuJson)
 {
@@ -53,27 +38,54 @@ function majElementsPage(contenuJson)
         
     }
     //Savoir faire
+    document.querySelector("#savoir_faire h2").textContent = contenuJson["savoir_faire"]["titre"];
     elmts = document.querySelectorAll("#savoir_faire > ul > *");
     for (let i = 0; i < elmts.length; i++) {
         const elmt = elmts[i];
-        if (elmt.tagName == "UL")
+        if (elmt.tagName != "UL")
         {
-            alert("UL");
+            let chaine = contenuJson["savoir_faire"]["Contenu"][i];
+            elmt.innerHTML = "<strong>"+chaine[0]+"</strong>"+chaine[1];
         }
-        
+        else
+        {
+            enfants = elmt.children;
+            for (let n = 0; n < enfants.length; n++) {
+                const enfant = enfants[n];
+                enfant.textContent =  contenuJson["savoir_faire"]["Contenu"][i][n];
+            }
+        }
     }
-    
-
-    // document.querySelector("").textContent = contenuJson[];
-    
+    //Savoir etre
+    document.querySelector("#savoir_etre h2").textContent = contenuJson["savoir_etre"]["titre"];
+    elmts = document.querySelectorAll("#savoir_etre > ul > *");
+    for (let i = 0; i < elmts.length; i++) {
+        const elmt = elmts[i];
+        {
+            let chaine = contenuJson["savoir_etre"]["Contenu"][i];
+            elmt.innerHTML = "<strong>"+chaine[0]+"</strong>"+chaine[1];
+        }
+    }
 
 
     // -------- Portfolio --------
 }
+function changerLangue(newLang)
+{
+    console.log(newLang);
+    //Recuperation du json
+    var url = "http://localhost/CV_Portfolio/src/contenu/contenu_"+newLang+".json"
+    var request = new XMLHttpRequest();
+    request.open('GET', url);
+    request.responseType = 'json';
+    request.send();
 
-
-
-function changerLangue(event)
+    //Maj des elements graphiques
+    request.onload = function(){
+        majElementsPage(request.response);
+    }
+}
+function clicLangue(event)
 {
     newLang = event.target.getAttribute("id");                                      //Langue associée au bouton cliqué
     pageLang =  document.getElementsByTagName("html")[0].getAttribute("lang");      //Langue actuelle de la page
@@ -83,21 +95,8 @@ function changerLangue(event)
         // - S il faut changer la langue -
         //Changement langue dans l entete du site (head)
         document.getElementsByTagName("html")[0].setAttribute("lang", newLang);
-        
-        //Recuperation du json
-        var url = "http://localhost/CV_Portfolio/src/contenu/contenu_"+newLang+".json"
-        var request = new XMLHttpRequest();
-        request.open('GET', url);
-        request.responseType = 'json';
-        request.send();
-
-        //Maj des elements graphiques
-        request.onload = function(){
-            majElementsPage(request.response);
-        }
+        changerLangue(newLang);
     }
 }   
-document.getElementById("zoneLangues").addEventListener("click", changerLangue);   
-
-
+document.getElementById("zoneLangues").addEventListener("click", clicLangue);   
 
