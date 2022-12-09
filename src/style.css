@@ -117,9 +117,9 @@
 
     display:grid;   /*Definition en fonction de la taille de la fenetre*/
 
-    background-image: url("header.jpg");
+    /* background-image: url("header.jpg");
     background-size:cover;
-    background-position: center center;
+    background-position: center center; */
 
     align-items: center;
     justify-content :center;
