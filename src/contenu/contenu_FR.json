@@ -1,5 +1,5 @@
 {
-    "titrePrincipal_cv":{
+    "titrePrincipal":{
         "nom":"Nicolas DELAHAIE",
         "profession":"ETUDIANT INFORMATIQUE"
     },
@@ -15,7 +15,10 @@
             "nomProfil":"Nicolas DELAHAIE"
         }
     },
-    "objectifs":"Je souhaiterais à la suite de mon BUT informatique entrer en école d’ingénieur. Au préalable, j’aimerais, à l’issue de mes stages, trouver la specialité qui me conviendrait le mieux parmi celles que j’étudie actuellement.",
+    "objectifs":{
+        "titre":"OBJECTIF",
+        "contenu":"Je souhaiterais à la suite de mon BUT informatique entrer en école d’ingénieur. Au préalable, j’aimerais, à l’issue de mes stages, trouver la specialité qui me conviendrait le mieux parmi celles que j’étudie actuellement."
+    },
     "formations":{
         "titre":"FORMATIONS",
         "contenu":[
@@ -31,7 +34,7 @@
                 "duree":"(2018-2020)",
                 "details":[
                     "Spacialités",
-                    ["NSI", "Maths expertes", "(Physique)"],
+                    "NSI", "Maths expertes", "(Physique)",
                     "Bac mention bien"
                 ]        
             }
