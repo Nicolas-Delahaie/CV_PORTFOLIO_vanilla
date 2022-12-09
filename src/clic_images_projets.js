@@ -1,7 +1,6 @@
 var defaultDimensions = new Map();
 var idDerniereImage = null;
 
-
 function clickImage(event){
     event.stopPropagation();
     if (!event.target.parentElement.classList.contains("agrandie"))
@@ -37,12 +36,12 @@ function agrandissementImage(event)
 {
     //Sauvegarde des dimensions avant modification
     defaultDimensions[event.target.parentElement.getAttribute("id")] =  [event.target.parentElement.clientWidth, event.target.parentElement.clientHeight];
+    
     //Agrandit l image le plus grand possible 
     imgWidth = event.target.parentElement.clientWidth; 
     imgHeight = event.target.parentElement.clientHeight; 
     coefHeight = imgHeight / imgWidth           //Multiplier la largeur pour avoir la longueur
 
-    // alert("Largeur avant traitement : "+imgWidth);
     widthLimit = window.innerWidth * 0.5;       //Largeur maximum de l image 
     heightLimit = window.innerHeight * 0.9;     //longueur maximum de l image 
 
@@ -64,9 +63,7 @@ function agrandissementImage(event)
     // centrerElement(event.target.parentElement);
 
     //Repositionnement fenetre centree par rapport a l image
-    // alert("top y zone projets : ", event.target.parentElement.parentElement.offsetTop);
     repositionner(event.target.parentElement);
-    
     
     //Ajout de la classe agrandie
     event.target.parentElement.classList.add("agrandie");
@@ -76,6 +73,7 @@ function agrandissementImage(event)
 }
 function repositionner(elmt)
 {
+    //Positionne la fenetre par rapport a l element tout en restant dans son container
     elmtHeight = elmt.offsetHeight;
     yImage = elmt.offsetTop;
     newY = yImage -(window.innerHeight-elmtHeight) / 2;
@@ -105,7 +103,6 @@ function degrandissementImage(event)
 function centrerElement(elmt)
 {
     var marge = (window.innerWidth - elmt.offsetWidth) / 2;
-    // alert("Fentre : "+window.innerWidth+"px\nElement :"+elmt.offsetWidth+"  "+elmt.style.width+"px\nMarge : "+marge+"px");
     elmt.style.margin = "20px "+marge+"px";
 
 }
@@ -116,8 +113,7 @@ function decentrerElement(elmt)
 
 photos = document.getElementsByClassName("photosProjets");
 for (let index = 0; index < photos.length; index++) {
-    photos[index].addEventListener('click', clickImage);
+    // photos[index].addEventListener('click', clickImage);
 }
 document.getElementById("zonePhotosProjets").addEventListener('click', degrandissementDernierImage);
-// document.querySelectorAll(".photosProjets").array.forEach(element => element.addEventListener('click', test));
 
